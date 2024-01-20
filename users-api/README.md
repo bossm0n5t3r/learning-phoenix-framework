@@ -58,7 +58,7 @@ You can also run your app inside IEx (Interactive Elixir) as:
 version: '3.9'
 services:
   db:
-    container_name: learning-phoenix-framework-user-api-postgres
+    container_name: learning-phoenix-framework-users-api-postgres
     image: postgres:latest
     environment:
       POSTGRES_USER: postgres
